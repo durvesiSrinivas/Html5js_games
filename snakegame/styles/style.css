@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+  margin: 0;
+  background-color: black; /* Optional background color */
+}
+
+#gameCanvas {
+  border: 2px solid green;
+  background-color: black; /* black background for visibility */
+}
+
+.controls {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  margin-top: 8px; /* Add some space above the button groups */
+}
+
+.arrow-button {
+  height: 50px;
+  width: 50px; 
+  font-size: 1.5em; /* Increase font size of the arrow */
+  border: none;
+  background-color: gray;
+  color: yellow;
+  margin: 5px; /* Add some spacing between buttons */
+  border-radius: 5px; /* Optional rounded corners */
+}
